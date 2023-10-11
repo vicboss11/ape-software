@@ -5,6 +5,11 @@
  */
 
 :root {
+  --main-color: #42a79e;
+  --second-color: #51bab1;
+  --third-color: #122d2b;
+  --fourth-color: #9ad7d2;
+  --fifth-color: #255e59;
   --background-body: #fff;
   --background: #efefef;
   --background-alt: #f7f7f7;
@@ -109,7 +114,7 @@ html {
 }
 
 body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Segoe UI Emoji', 'Apple Color Emoji', 'Noto Color Emoji', sans-serif;
+  font-family: "Montserrat", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Segoe UI Emoji', 'Apple Color Emoji', 'Noto Color Emoji', sans-serif;
   line-height: 1.4;
   max-width: 800px;
   margin: 20px auto;
