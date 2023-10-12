@@ -1,0 +1,9 @@
+.content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  width: calc(100% - var(--sidebar-width));
+}
