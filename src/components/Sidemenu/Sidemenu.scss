@@ -8,4 +8,19 @@
   padding-top: 15px;
 
   list-style: none;
+  overflow-y: auto;
+  height: 100%;
+
+  &::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: var(--second-color);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #173936;
+  }
 }
