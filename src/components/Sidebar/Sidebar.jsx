@@ -1,19 +1,20 @@
-import { useState } from 'react'
+import { useContext } from 'react'
 import { Bars3Icon } from '@heroicons/react/24/solid'
 import apeSoftwareLogo from '../../assets/ape-software.svg'
 import apeSoftwareMinLogo from '../../assets/ape-software-min.svg'
 import Sidemenu from '../Sidemenu/Sidemenu'
+import { MenuContext } from '../../context/MenuContext'
 import './Sidebar.scss'
 
 function Sidebar() {
-  const [isOpened, setIsOpened] = useState(false)
+  const menuContext = useContext(MenuContext)
 
-  const headerImage = isOpened ? apeSoftwareLogo : apeSoftwareMinLogo
+  const headerImage = menuContext.isOpen ? apeSoftwareLogo : apeSoftwareMinLogo
 
-  const toogleSidebar = () => setIsOpened(!isOpened)
+  const toogleSidebar = () => menuContext.setIsOpen(!menuContext.isOpen)
 
   return (
-    <nav className={`sidebar ${isOpened ? 'sidebar--open' : ''}`}>
+    <nav className={`sidebar ${menuContext.isOpen ? 'sidebar--open' : ''}`}>
       <header className='sidebar-header'>
         <img className='sidebar-header-image' src={headerImage} alt='Ape Software logo' />
       </header>
