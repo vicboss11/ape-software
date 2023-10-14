@@ -13,7 +13,7 @@ const pageLinks = [
   },
   {
     title: 'Servicios',
-    href: '#services'
+    href: '#servicios'
   },
   {
     title: 'Conócenos',
