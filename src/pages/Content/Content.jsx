@@ -2,10 +2,11 @@ import { useContext } from 'react'
 import { MenuContext } from '../../context/MenuContext'
 import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer'
+import SectionBanner from '../../components/SectionBanner/SectionBanner'
+import Products from '../../components/Products/Products'
+import Team from '../../components/Team/Team'
 import apeSoftwareLogo from '../../assets/ape-software.svg'
 import './Content.scss'
-import SectionBanner from '../../components/SectionBanner/SectionBanner'
-import Team from '../../components/Team/Team'
 
 function Content() {
   const menuContext = useContext(MenuContext)
@@ -25,7 +26,7 @@ function Content() {
 
           <article className='content-article'>
             <div>
-
+              <Products />
             </div>
           </article>
         </section>
