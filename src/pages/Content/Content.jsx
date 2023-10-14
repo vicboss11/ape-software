@@ -45,6 +45,10 @@ function Content() {
         </section>
 
         <section className='content-section'>
+          <h2 id='conocenos' style={{ height: 0, margin: 0, visibility: 'hidden' }}></h2>
+        </section>
+
+        <section className='content-section'>
           <SectionBanner
             breadcrumb='Inicio / Conócenos / Modelo Empresarial'
             backgroundClassName='section-business-model'
