@@ -5,6 +5,7 @@ import Footer from '../../components/Footer/Footer'
 import apeSoftwareLogo from '../../assets/ape-software.svg'
 import './Content.scss'
 import SectionBanner from '../../components/SectionBanner/SectionBanner'
+import Team from '../../components/Team/Team'
 
 function Content() {
   const menuContext = useContext(MenuContext)
@@ -230,7 +231,7 @@ function Content() {
             <h3>Comité de Dirección</h3>
 
             <div>
-
+              <Team />
             </div>
           </article>
         </section>
