@@ -4,6 +4,7 @@ import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer'
 import apeSoftwareLogo from '../../assets/ape-software.svg'
 import './Content.scss'
+import SectionBanner from '../../components/SectionBanner/SectionBanner'
 
 function Content() {
   const menuContext = useContext(MenuContext)
@@ -14,7 +15,12 @@ function Content() {
 
       <main className='content'>
         <section className='content-section'>
-          <h2 id='productos'>Productos</h2>
+          <SectionBanner
+            breadcrumb='Inicio / Productos'
+            backgroundClassName='section-products'
+          >
+            <h2 id='productos'>Productos</h2>
+          </SectionBanner>
 
           <article className='content-article'>
             <div>
@@ -24,7 +30,12 @@ function Content() {
         </section>
 
         <section className='content-section'>
-          <h2 id='servicios'>Servicios</h2>
+          <SectionBanner
+            breadcrumb='Inicio / Servicios'
+            backgroundClassName='section-services'
+          >
+            <h2 id='servicios'>Servicios</h2>
+          </SectionBanner>
 
           <article className='content-article'>
             <div>
@@ -34,7 +45,12 @@ function Content() {
         </section>
 
         <section className='content-section'>
-          <h2 id='modelo-empresarial'>Modelo Empresarial</h2>
+          <SectionBanner
+            breadcrumb='Inicio / Conócenos / Modelo Empresarial'
+            backgroundClassName='section-business-model'
+          >
+            <h2 id='modelo-empresarial'>Modelo Empresarial</h2>
+          </SectionBanner>
 
           <article className='content-article'>
             <div>
@@ -141,7 +157,12 @@ function Content() {
         </section>
 
         <section className='content-section'>
-          <h2 id='cultura-corporativa'>Cultura Corporativa</h2>
+          <SectionBanner
+            breadcrumb='Inicio / Conócenos / Cultura Corporativa'
+            backgroundClassName='section-corporate-culture'
+          >
+            <h2 id='cultura-corporativa'>Cultura Corporativa</h2>
+          </SectionBanner>
 
           <article className='content-article'>
             <div>
@@ -194,7 +215,12 @@ function Content() {
         </section>
 
         <section className='content-section'>
-          <h2 id='gobierno-corporativo'>Gobierno Corporativo</h2>
+          <SectionBanner
+            breadcrumb='Inicio / Conócenos / Gobierno Corporativo'
+            backgroundClassName='section-corporate-governance'
+          >
+            <h2 id='gobierno-corporativo'>Gobierno Corporativo</h2>
+          </SectionBanner>
 
           <article className='content-article'>
             <h3>Comité de Dirección</h3>
@@ -206,7 +232,12 @@ function Content() {
         </section>
 
         <section className='content-section'>
-          <h2 id='datos-de-interes'>Datos de Interés</h2>
+          <SectionBanner
+            breadcrumb='Inicio / Conócenos / Datos de Interés'
+            backgroundClassName='section-data-of-interest'
+          >
+            <h2 id='datos-de-interes'>Datos de Interés</h2>
+          </SectionBanner>
 
           <article className='content-article'>
             <h3>Nombre comercial e imagen corporativa</h3>
@@ -238,7 +269,12 @@ function Content() {
         </section>
 
         <section className='content-section'>
-          <h2 id='contacto'>Contacto</h2>
+          <SectionBanner
+            breadcrumb='Inicio / Contacto'
+            backgroundClassName='section-contact'
+          >
+            <h2 id='contacto'>Contacto</h2>
+          </SectionBanner>
 
           <article className='content-article'>
             <div>
