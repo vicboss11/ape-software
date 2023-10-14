@@ -48,14 +48,12 @@ function Content() {
             <h3>Objetivos generales a largo plazo</h3>
 
             <div>
-              <p>
-                <ul>
-                  <li>Crecer como empresa.</li>
-                  <li>Convertirnos en una empresa conocida, reconocida y querida.</li>
-                  <li>Sobrevivir como empresa.</li>
-                  <li>Imponer una tendencia de consumo novedosa, rentable y respetuosa con el medio ambiente.</li>
-                </ul>
-              </p>
+              <ul>
+                <li>Crecer como empresa.</li>
+                <li>Convertirnos en una empresa conocida, reconocida y querida.</li>
+                <li>Sobrevivir como empresa.</li>
+                <li>Imponer una tendencia de consumo novedosa, rentable y respetuosa con el medio ambiente.</li>
+              </ul>
             </div>
           </article>
 
@@ -63,14 +61,12 @@ function Content() {
             <h3>Líneas de actuación</h3>
 
             <div>
-              <p>
-                <ul>
-                  <li>Investigación</li>
-                  <li>Desarrollo/Innovación</li>
-                  <li>Comercial</li>
-                  <li>Mantenimiento</li>
-                </ul>
-              </p>
+              <ul>
+                <li>Investigación</li>
+                <li>Desarrollo/Innovación</li>
+                <li>Comercial</li>
+                <li>Mantenimiento</li>
+              </ul>
             </div>
           </article>
 
@@ -96,31 +92,29 @@ function Content() {
             <h3>Modelo de desarrollo</h3>
 
             <div>
-              <p>
-                <ol>
-                  <li>
-                    <strong>Definición de objetivos:</strong> se define la finalidad del proyecto que vayamos a desarrollar. En el caso de que el software esté orientado a un cliente, se establecerán los objetivos de acuerdo a sus necesidades, siendo el papel del cliente un factor fundamental para el resultado del producto.
-                  </li>
-                  <li>
-                    <strong>Análisis de requisitos y viabilidad:</strong> El propósito del análisis de requisitos es hacer que los mismos alcancen un estado óptimo antes de alcanzar la fase de diseño.
-                  </li>
-                  <li>
-                    <strong>Diseño:</strong> a partir de la información obtenida en los pasos previos se empezará con el diseño del software (diagramas de flujo, pseudocódigo, etc.).
-                  </li>
-                  <li>
-                    <strong>Implementación:</strong> proceso en que se empieza a programar eligiendo el lenguaje que sea más apropiado para el proyecto.
-                  </li>
-                  <li>
-                    <strong>Pruebas:</strong> En esta fase se evalúa el funcionamiento del programa para comprobar si existen fallos o para mejorarlo hasta alcanzar los estándares establecidos previamente.
-                  </li>
-                  <li>
-                    <strong>Validación:</strong> Proceso en que se comprueba que el programa cumple con las especificaciones descritas por el cliente.
-                  </li>
-                  <li>
-                    <strong>Mantenimiento y evolución:</strong> comprende todos los procedimientos correctivos y las actualizaciones secundarias del software.
-                  </li>
-                </ol>
-              </p>
+              <ol>
+                <li>
+                  <strong>Definición de objetivos:</strong> se define la finalidad del proyecto que vayamos a desarrollar. En el caso de que el software esté orientado a un cliente, se establecerán los objetivos de acuerdo a sus necesidades, siendo el papel del cliente un factor fundamental para el resultado del producto.
+                </li>
+                <li>
+                  <strong>Análisis de requisitos y viabilidad:</strong> El propósito del análisis de requisitos es hacer que los mismos alcancen un estado óptimo antes de alcanzar la fase de diseño.
+                </li>
+                <li>
+                  <strong>Diseño:</strong> a partir de la información obtenida en los pasos previos se empezará con el diseño del software (diagramas de flujo, pseudocódigo, etc.).
+                </li>
+                <li>
+                  <strong>Implementación:</strong> proceso en que se empieza a programar eligiendo el lenguaje que sea más apropiado para el proyecto.
+                </li>
+                <li>
+                  <strong>Pruebas:</strong> En esta fase se evalúa el funcionamiento del programa para comprobar si existen fallos o para mejorarlo hasta alcanzar los estándares establecidos previamente.
+                </li>
+                <li>
+                  <strong>Validación:</strong> Proceso en que se comprueba que el programa cumple con las especificaciones descritas por el cliente.
+                </li>
+                <li>
+                  <strong>Mantenimiento y evolución:</strong> comprende todos los procedimientos correctivos y las actualizaciones secundarias del software.
+                </li>
+              </ol>
             </div>
           </article>
 
@@ -128,22 +122,20 @@ function Content() {
             <h3>Elementos innovadores</h3>
 
             <div>
-              <p>
-                <ul>
-                  <li>
-                    <strong>Calidad:</strong> nos adaptamos a los últimos estándares establecidos, con la intención de ofrecer siempre un producto o servicio de calidad, accesible para todos los usuarios y que se adapte a las necesidades de nuestros clientes.
-                  </li>
-                  <li>
-                    <strong>Soporte continuo:</strong> con el objetivo de mantener una fuerte alianza con los clientes, disponemos de un soporte continuo para mantener los productos previamente vendidos a lo largo del tiempo.
-                  </li>
-                  <li>
-                    <strong>Servicio online:</strong> los productos y servicios públicos estarán a disposición de todos los usuarios desde la página web oficial de la empresa.
-                  </li>
-                  <li>
-                    <strong>Atención personalizada:</strong> cuando un cliente quiere llegar a un acuerdo con nosotros o viceversa nos comprometemos a que la experiencia sea lo más satisfactoria posible con la finalidad de llegar a un objetivo claro, facilitado así el desarrollo del proyecto solicitado.
-                  </li>
-                </ul>
-              </p>
+              <ul>
+                <li>
+                  <strong>Calidad:</strong> nos adaptamos a los últimos estándares establecidos, con la intención de ofrecer siempre un producto o servicio de calidad, accesible para todos los usuarios y que se adapte a las necesidades de nuestros clientes.
+                </li>
+                <li>
+                  <strong>Soporte continuo:</strong> con el objetivo de mantener una fuerte alianza con los clientes, disponemos de un soporte continuo para mantener los productos previamente vendidos a lo largo del tiempo.
+                </li>
+                <li>
+                  <strong>Servicio online:</strong> los productos y servicios públicos estarán a disposición de todos los usuarios desde la página web oficial de la empresa.
+                </li>
+                <li>
+                  <strong>Atención personalizada:</strong> cuando un cliente quiere llegar a un acuerdo con nosotros o viceversa nos comprometemos a que la experiencia sea lo más satisfactoria posible con la finalidad de llegar a un objetivo claro, facilitado así el desarrollo del proyecto solicitado.
+                </li>
+              </ul>
             </div>
           </article>
         </section>
@@ -183,22 +175,20 @@ function Content() {
             <h3>Valores</h3>
 
             <div>
-              <p>
-                <ul>
-                  <li>
-                    <strong>Integridad:</strong> profesionalidad y transparencia en nuestra gestión interna y externa.
-                  </li>
-                  <li>
-                    <strong>Innovación:</strong> siempre miramos hacia el futuro. Somos conscientes de las constantes actualizaciones del sector y por lo tanto nos adaptamos a las últimas novedades con el objetivo de ofrecer un producto/servicio de calidad a nuestros clientes.
-                  </li>
-                  <li>
-                    <strong>Orientación al cliente:</strong> responsabilidad y respeto a los compromisos establecidos con los clientes, cumpliendo las expectativas.
-                  </li>
-                  <li>
-                    <strong>Responsabilidad Social Corporativa:</strong> contribuimos de manera activa a una mejora social y económica, además de estar totalmente comprometidos con el medio ambiente.
-                  </li>
-                </ul>
-              </p>
+              <ul>
+                <li>
+                  <strong>Integridad:</strong> profesionalidad y transparencia en nuestra gestión interna y externa.
+                </li>
+                <li>
+                  <strong>Innovación:</strong> siempre miramos hacia el futuro. Somos conscientes de las constantes actualizaciones del sector y por lo tanto nos adaptamos a las últimas novedades con el objetivo de ofrecer un producto/servicio de calidad a nuestros clientes.
+                </li>
+                <li>
+                  <strong>Orientación al cliente:</strong> responsabilidad y respeto a los compromisos establecidos con los clientes, cumpliendo las expectativas.
+                </li>
+                <li>
+                  <strong>Responsabilidad Social Corporativa:</strong> contribuimos de manera activa a una mejora social y económica, además de estar totalmente comprometidos con el medio ambiente.
+                </li>
+              </ul>
             </div>
           </article>
         </section>
