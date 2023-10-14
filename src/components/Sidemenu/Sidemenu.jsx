@@ -24,7 +24,7 @@ const menuItems = [
     hasMenu: false
   },
   {
-    id: 'know-us',
+    id: 'about',
     title: 'Conócenos',
     icon: (<UserGroupIcon className='sidemenu-item-icon' />),
     hasMenu: true,
