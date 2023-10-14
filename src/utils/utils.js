@@ -10,3 +10,9 @@ export const getLocalHref = (string) => {
 
   return `#${normalizeString(lowerCaseString)}`
 }
+
+export const getEuroFormat = (value) => {
+  return new Intl.NumberFormat('es-ES', {
+    currency: 'EUR'
+  }).format(value)
+}
