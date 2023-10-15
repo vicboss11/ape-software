@@ -45,7 +45,7 @@ function ProductCard({ product }) {
       </section>
 
       <button className='product-card-button'>
-        Más información
+        {product.claim}
       </button>
     </div>
   )

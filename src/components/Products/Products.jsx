@@ -16,7 +16,8 @@ const products = [
       'Servicios de implementación y capacitación',
       'Soporte técnico dedicado'
     ],
-    imageUrl: '/content/products/crm.jpg'
+    imageUrl: '/content/products/crm.jpg',
+    claim: 'Más información'
   },
   {
     name: 'ApeERP',
@@ -33,7 +34,8 @@ const products = [
       'Reduzca la complejidad financiera y los riesgos globales',
       'Soporte técnico dedicado'
     ],
-    imageUrl: '/content/products/erp.jpg'
+    imageUrl: '/content/products/erp.jpg',
+    claim: 'Más información'
   },
   {
     name: 'ApeOffice',
@@ -50,7 +52,8 @@ const products = [
       'Integración entre distintos dispositivos',
       'Búsqueda inteligente'
     ],
-    imageUrl: '/content/products/office.jpg'
+    imageUrl: '/content/products/office.jpg',
+    claim: 'Más información'
   },
   {
     name: 'Software a medida',
@@ -62,7 +65,8 @@ const products = [
       'Posibilidad de realizar un soporte continuo del una vez finalizado el producto',
       '¡Tú pones las reglas!'
     ],
-    imageUrl: '/content/products/custom.jpg'
+    imageUrl: '/content/products/custom.jpg',
+    claim: 'Más información'
   },
 ]
 

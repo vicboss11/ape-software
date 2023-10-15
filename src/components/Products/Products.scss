@@ -1,7 +1,6 @@
 .products {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  place-content: center;
   gap: var(--layout-03);
 
   margin-top: var(--layout-06);
