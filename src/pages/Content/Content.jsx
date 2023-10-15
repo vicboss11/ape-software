@@ -4,6 +4,7 @@ import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer'
 import SectionBanner from '../../components/SectionBanner/SectionBanner'
 import Products from '../../components/Products/Products'
+import Services from '../../components/Services/Services'
 import Team from '../../components/Team/Team'
 import apeSoftwareLogo from '../../assets/ape-software.svg'
 import './Content.scss'
@@ -41,7 +42,7 @@ function Content() {
 
           <article className='content-article'>
             <div>
-
+              <Services />
             </div>
           </article>
         </section>
