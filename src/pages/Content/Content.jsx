@@ -8,6 +8,7 @@ import Services from '../../components/Services/Services'
 import Team from '../../components/Team/Team'
 import apeSoftwareLogo from '../../assets/ape-software.svg'
 import './Content.scss'
+import ContactForm from '../../components/ContactForm/ContactForm'
 
 function Content() {
   const menuContext = useContext(MenuContext)
@@ -285,7 +286,7 @@ function Content() {
 
           <article className='content-article'>
             <div>
-
+              <ContactForm />
             </div>
           </article>
         </section>
